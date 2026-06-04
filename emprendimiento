@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoFlores Creativas</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f4fff4;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#4CAF50,#81C784);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+nav{
+    background:#2E7D32;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    padding:40px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.productos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.tarjeta{
+    background:white;
+    width:280px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    padding:20px;
+    text-align:center;
+}
+
+.tarjeta img{
+    width:100%;
+    border-radius:10px;
+}
+
+button{
+    background:#4CAF50;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#388E3C;
+}
+
+footer{
+    background:#2E7D32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌸 EcoFlores Creativas 🌸</h1>
+    <p>Flores artesanales elaboradas con materiales reciclados</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>
+        Transformamos materiales reciclados en hermosas flores decorativas.
+        Nuestro objetivo es cuidar el ambiente mientras creamos productos
+        únicos y sostenibles para decorar hogares, oficinas y eventos.
+    </p>
+</section>
+
+<section id="productos">
+    <h2>Nuestros Productos</h2>
+
+    <div class="productos">
+
+        <div class="tarjeta">
+            <img src="https://via.placeholder.com/250x180" alt="Flor reciclada">
+            <h3>Rosas Recicladas</h3>
+            <p>Hechas con papel reciclado.</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://via.placeholder.com/250x180" alt="Flor reciclada">
+            <h3>Girasoles Ecológicos</h3>
+            <p>Elaborados con cartón reutilizado.</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://via.placeholder.com/250x180" alt="Flor reciclada">
+            <h3>Ramos Decorativos</h3>
+            <p>Perfectos para regalos y eventos.</p>
+            <button>Comprar</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>📧 correo@ecoflores.com</p>
+    <p>📱 +506 8888-8888</p>
+    <p>📍 Costa Rica</p>
+</section>
+
+<footer>
+    <p>© 2026 EcoFlores Creativas | Hecho con amor por el planeta 🌎</p>
+</footer>
+
+</body>
+</html>
